@@ -1,0 +1,55 @@
+.stat-card {
+  border-left: 4px solid var(--primary-color);
+}
+
+.stat-card-primary { border-left-color: var(--primary-color); }
+.stat-card-success { border-left-color: var(--success-color); }
+.stat-card-warning { border-left-color: var(--warning-color); }
+.stat-card-danger { border-left-color: var(--danger-color); }
+.stat-card-info { border-left-color: var(--info-color); }
+
+.stat-card-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.stat-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+
+.stat-icon-primary { background-color: var(--primary-color); }
+.stat-icon-success { background-color: var(--success-color); }
+.stat-icon-warning { background-color: var(--warning-color); }
+.stat-icon-danger { background-color: var(--danger-color); }
+.stat-icon-info { background-color: var(--info-color); }
+
+.stat-info {
+  flex: 1;
+}
+
+.stat-title {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin: 0;
+}
+
+.stat-subtitle {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  margin-top: 0.25rem;
+}
